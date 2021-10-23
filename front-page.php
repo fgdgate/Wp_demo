@@ -179,7 +179,7 @@ Aboutブロック
                   endif;
                   ?>
                   <div class="news__button">
-                        ニュース一覧はこちら
+                        News一覧はこちら
                         <a href="<?php echo esc_url($category_link); ?>" class="a__btn"></a>
                   </div>
             </div>

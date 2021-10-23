@@ -1,7 +1,4 @@
 <!-- 記事を取得し、その記事のタイトルや画像を表示させている内容（26行まで） -->
-<?php
-include_once("index.html");
-?>
 <?php get_header(); ?>
 	<div class="index__img">
 		<img src="<?php bloginfo('template_url'); ?>/img\Campus.jpg" alt="">

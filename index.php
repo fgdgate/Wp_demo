@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-	<!-- <div class="index__img">
+	<div class="index__img">
 		<img src="<?php bloginfo('template_url'); ?>/img\Campus.jpg" alt="">
-		<div id="index-text" class="index-text">News List</div>
-	</div> -->
+		<div class="index-text">News List</div>
+	</div>
 	
 <!-- 記事ループ -->
 <?php if (have_posts()) :

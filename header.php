@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<?php wp_head(); ?> <!-- wp_head()では、WordPressに初期設定されているhead情報を取得している -->
-      <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
 
 </head>
 
@@ -30,7 +30,7 @@
             <div id="hamburger__btn" class="hamburger__btn"><i class="fas fa-bars"></i></div>
         </div>
         
-        <script>
+        <!-- <script>
             var lastInnerWidth = document.documentElement.clientWidth; //window.innerWidthで現在の画面幅を取得
             var nav = document.getElementById('nav');
             if (lastInnerWidth <= 480) { // 画面幅480px以下の場合
@@ -66,6 +66,6 @@
                 document.getElementById('hamburger__modal').style.display = "none";
             });
 
-        </script>
+        </script> -->
 </header>
       <div class="main">

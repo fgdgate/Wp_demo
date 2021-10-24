@@ -30,7 +30,7 @@
             <div id="hamburger__btn" class="hamburger__btn"><i class="fas fa-bars"></i></div>
         </div>
         
-        <!-- <script>
+        <script>
             var lastInnerWidth = document.documentElement.clientWidth; //window.innerWidthで現在の画面幅を取得
             var nav = document.getElementById('nav');
             if (lastInnerWidth <= 480) { // 画面幅480px以下の場合
@@ -66,6 +66,6 @@
                 document.getElementById('hamburger__modal').style.display = "none";
             });
 
-        </script> -->
+        </script>
 </header>
       <div class="main">

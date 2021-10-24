@@ -26,9 +26,10 @@
 		</div>
 		<!--モーダル-->
             <div id="hamburger__modal" class="hamburger__modal"></div>
-            <!--ハンバーガーメニューボタン-->
+        <!--ハンバーガーメニューボタン-->
             <div id="hamburger__btn" class="hamburger__btn"><i class="fas fa-bars"></i></div>
         </div>
+        
         <script>
             var lastInnerWidth = document.documentElement.clientWidth; //window.innerWidthで現在の画面幅を取得
             var nav = document.getElementById('nav');

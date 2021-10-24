@@ -1,5 +1,5 @@
+<!-- 記事を取得し、その記事のタイトルや画像を表示させている内容（26行まで） -->
 <?php get_header(); ?>
-<!-- 記事を取得し、その記事のタイトルや画像を表示させている内容（26行まで）-->
 	<div class="index__img">
 		<img src="<?php bloginfo('template_url'); ?>/img\Campus.jpg" alt="">
 		<div id="index-text" class="index-text">News List</div>

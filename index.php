@@ -1,4 +1,3 @@
-
 <?php get_header(); ?>
 	<!-- <div class="index__img">
 		<img src="<?php bloginfo('template_url'); ?>/img\Campus.jpg" alt="">
@@ -22,8 +21,8 @@
 			</div>
 			<!-- 投稿日 -->
 			<div class="index__time">
-				<time datetime="<?php echo get_the_time('Y-m-d'); ?>">
-					<?php echo get_the_date(); ?> <!-- 記事を取得し、その記事のタイトルや画像を表示させている内容（26行まで） -->
+				<time datetime="<?php echo get_the_date('Y-m-d'); ?>">
+					<?php echo get_the_date(); ?>
 				</time>
 			</div>
 			<!-- 抜粋 -->

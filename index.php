@@ -1,8 +1,9 @@
+
 <?php get_header(); ?>
-	<div class="index__img">
+	<!-- <div class="index__img">
 		<img src="<?php bloginfo('template_url'); ?>/img\Campus.jpg" alt="">
 		<div id="index-text" class="index-text">News List</div>
-	</div>
+	</div> -->
 	
 <!-- 記事ループ -->
 <?php if (have_posts()) :
@@ -22,7 +23,7 @@
 			<!-- 投稿日 -->
 			<div class="index__time">
 				<time datetime="<?php echo get_the_time('Y-m-d'); ?>">
-					<?php echo get_the_date(); ?>
+					<?php echo get_the_date(); ?> <!-- 記事を取得し、その記事のタイトルや画像を表示させている内容（26行まで） -->
 				</time>
 			</div>
 			<!-- 抜粋 -->

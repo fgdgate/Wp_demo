@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-	<!-- <div class="index__img">
-		<img src="/img\Campus.jpg" alt="">
+	<div class="index__img">
+		<img src="<?php bloginfo('template_url'); ?>/img\Campus.jpg" alt="">
 		<div class="index-text">News List</div>
-	</div> -->
+	</div>
 	
 <!-- 記事ループ -->
 <?php if (have_posts()) :
@@ -14,23 +14,23 @@
 			<!-- アイキャッチ画像 -->
 			<?php the_post_thumbnail('full'); ?>
 			<!-- タイトル -->
-			<!-- <div class="index__title"> -->
+			<div class="index__title">
 				<p>
 					<?php the_title(); ?>
 				</p>
-			<!-- </div> -->
+			</div>
 			<!-- 投稿日 -->
-			<!-- <div class="index__time"> -->
+			<div class="index__time">
 				<time datetime="<?php echo get_the_date('Y-m-d'); ?>">
 					<?php echo get_the_date(); ?>
 				</time>
-			<!-- </div> -->
+			</div>
 			<!-- 抜粋 -->
-			<!-- <div class="index__exc"> -->
+			<div class="index__exc">
 				<p>
 					<?php the_excerpt(); ?>
 				</p>
-			<!-- </div> -->
+			</div>
 		</a>
 <?php endwhile;
 endif; ?>
